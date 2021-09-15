@@ -5,3 +5,44 @@
 font-family: 'Lato', sans-serif;
 font-family: 'Oswald', sans-serif;
  */
+/* common design starts here */
+body {
+  font-family: "Lato", sans-serif;
+  background-color: #fff;
+}
+img {
+  max-width: 100%;
+  height: auto;
+}
+a {
+  text-decoration: none;
+}
+/* common design ends here */
+
+/* header section design starts here */
+header {
+  background: #f5f9f9;
+  padding: 25px;
+}
+.strict-logo {
+  padding: 10px 0px;
+}
+.menu {
+}
+.menu ul {
+  display: flex;
+  justify-content: flex-end;
+  margin: 0;
+}
+.menu ul li {
+  list-style: none;
+}
+.menu ul li a {
+  font-family: "Oswald", sans-serif;
+  color: #454444;
+  font-size: 25px;
+  padding: 10px 25px;
+}
+.menu ul li a:hover {
+}
+/* header section design ends here */
