@@ -46,3 +46,70 @@ header {
 .menu ul li a:hover {
 }
 /* header section design ends here */
+
+
+/* banner section design starts here */
+.banner{
+  background: url(image/banner.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+}
+.banner-text{
+  text-align: center;
+}
+.banner-text h1{
+  color: #ffffff;
+  font-size: 100px;
+  text-transform:  uppercase;
+  margin-bottom: 15px;
+  padding-top: 215px;
+  
+}
+.banner-text p{
+  color: #ffffff;
+  font-size: 20px;
+  border-top: 2px solid #15a4fa;
+  display: inline-block;
+  padding: 35px  10px 68px;
+  
+}
+.banner-button{
+  text-align: center;
+}
+.banner-button a{
+     border: 2px solid #15a4fa;
+     padding: 20px;
+     font-size: 18px;
+     color: #fff;
+     text-transform: capitalize;
+     
+}
+.banner-button i{
+  display: block;
+  padding: 175px 0px 70px;
+  color: #ffffff;
+  font-size: 35px;
+}
+/* banner section design ends here */
+
+
+
+/* desc section design starts here */
+
+.desc-section{
+        text-align: center;
+        padding: 80px 0px;
+}
+.desc-section h3{
+  font-size: 40px;
+  color: #2d3950;
+  margin-bottom: 28px;
+}
+.desc-section p{
+  font-size: 20px;
+  color: #999999;
+}
+
+/* desc section design ends here */
