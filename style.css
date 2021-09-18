@@ -47,46 +47,42 @@ header {
 }
 /* header section design ends here */
 
-
 /* banner section design starts here */
-.banner{
+.banner {
   background: url(image/banner.png);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
   background-attachment: fixed;
 }
-.banner-text{
+.banner-text {
   text-align: center;
 }
-.banner-text h1{
+.banner-text h1 {
   color: #ffffff;
   font-size: 100px;
-  text-transform:  uppercase;
+  text-transform: uppercase;
   margin-bottom: 15px;
   padding-top: 215px;
-  
 }
-.banner-text p{
+.banner-text p {
   color: #ffffff;
   font-size: 20px;
   border-top: 2px solid #15a4fa;
   display: inline-block;
-  padding: 35px  10px 68px;
-  
+  padding: 35px 10px 68px;
 }
-.banner-button{
+.banner-button {
   text-align: center;
 }
-.banner-button a{
-     border: 2px solid #15a4fa;
-     padding: 20px;
-     font-size: 18px;
-     color: #fff;
-     text-transform: capitalize;
-     
+.banner-button a {
+  border: 2px solid #15a4fa;
+  padding: 20px;
+  font-size: 18px;
+  color: #fff;
+  text-transform: capitalize;
 }
-.banner-button i{
+.banner-button i {
   display: block;
   padding: 175px 0px 70px;
   color: #ffffff;
@@ -94,20 +90,18 @@ header {
 }
 /* banner section design ends here */
 
-
-
 /* desc section design starts here */
 
-.desc-section{
-        text-align: center;
-        padding: 80px 0px;
+.desc-section {
+  text-align: center;
+  padding: 80px 0px;
 }
-.desc-section h3{
+.desc-section h3 {
   font-size: 40px;
   color: #2d3950;
   margin-bottom: 28px;
 }
-.desc-section p{
+.desc-section p {
   font-size: 20px;
   color: #999999;
 }
@@ -115,24 +109,146 @@ header {
 /* desc section design ends here */
 
 /* card sction design starts here */
-.cards{
+.cards {
   padding: 70px 0px;
 }
-.card{
+.card {
   text-align: center;
   padding: 15px 30px;
 }
-.card h5{
+.card h5 {
   font-size: 22px;
   color: #2d3950;
   margin-top: 30px;
 }
-.card p{
-    color: #999999;
+.card p {
+  color: #999999;
 }
-.card img{
+.card img {
   width: 100px;
   height: 100px;
   margin: 0 auto;
 }
 /* card sction design ends here */
+
+/* work section design starts here */
+.work {
+  background-color: #f6f9f9;
+  padding: 70px;
+}
+.title-section {
+  text-align: center;
+  margin-bottom: 70px;
+}
+.title-section h1 {
+  color: #2d3950;
+  font-size: 40px;
+}
+.title-section p {
+  color: #909090;
+  font-size: 15px;
+}
+.work-item {
+  position: relative;
+  overflow: hidden;
+}
+.work-item img {
+  width: 100%;
+}
+.work-overlay {
+  background: rgba(21, 164, 250, 0.8);
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  right: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: 0.5s;
+}
+.work-item:hover .work-overlay {
+  right: 0;
+}
+.work-overlay ul {
+  padding: 0px;
+  display: flex;
+}
+.work-overlay ul li {
+  list-style: none;
+  padding: 15px 15px;
+  margin-right: 10px;
+  border: 1px solid white;
+  border-radius: 8px;
+  color: #fff;
+}
+/* work section design ends here */
+
+/* contact form section design starts here */
+.contact-area {
+  background: url(image/form.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  /* position: relative; */
+}
+.contact-overlay {
+  background-color: rgba(45, 57, 80, 0.7);
+  width: 100%;
+  height: 100%;
+  /* position: absolute; */
+  top: 0;
+  left: 0;
+}
+.contact-overlay .title-section h1 {
+  color: #fff;
+}
+.fulll-form input {
+  background-color: transparent;
+}
+.textbox textarea {
+  background: transparent;
+}
+.btn-area {
+  display: flex;
+  justify-content: space-between;
+}
+.sub {
+  display: flex;
+}
+.sub label {
+  color: #fff;
+  margin-top: 0;
+  padding-left: 20px;
+}
+.btn button {
+  padding: 10px 40px;
+  background-color: transparent;
+  border: 2px solid #15a3f9;
+  border-radius: 5px;
+  color: #fff;
+}
+/* contact form section design ends here */
+
+/*footer section design start here */
+.footer-section {
+  padding: 20px 0px;
+}
+.social-icon ul {
+  display: flex;
+  justify-content: end;
+  margin-bottom: 0px;
+}
+.social-icon ul li {
+  list-style: none;
+  margin: 0px 10px;
+  font-size: 1.5rem;
+}
+.social-icon ul li a {
+  background-color: #15a3f9;
+  padding: 10px 12px;
+  border-radius: 8px;
+  color: #fff;
+}
+/*footer section design ends here */
