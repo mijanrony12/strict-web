@@ -45,6 +45,9 @@ header {
 }
 .menu ul li a:hover {
 }
+.menu-icon {
+  display: none;
+}
 /* header section design ends here */
 
 /* banner section design starts here */
@@ -252,3 +255,41 @@ header {
   color: #fff;
 }
 /*footer section design ends here */
+
+/* responsive work */
+@media (max-width: 576px) {
+  .menu {
+    /* display: none; */
+    position: absolute;
+    top: 12%;
+    right: 10%;
+  }
+  .menu ul {
+    display: block;
+    background-color: rgba(0, 0, 0, 0.6);
+    padding: 0px;
+  }
+  .menu ul li a {
+    color: #fff;
+    text-align: center;
+    transition: 0.6s;
+  }
+  .menu ul li a:hover {
+    color: #15a3f9;
+    font-size: 22px;
+  }
+  .menu-icon {
+    display: flex;
+    justify-content: flex-end;
+  }
+  .menu-icon i {
+    color: black;
+    border: 2px solid #15a3f9;
+    border-radius: 8px;
+    padding: 10px;
+  }
+  .menu-icon i:hover {
+    background-color: #15a3f9;
+    color: #fff;
+  }
+}
